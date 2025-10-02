@@ -11,7 +11,7 @@
 ![](https://img.shields.io/badge/C++14-header--only-blue.svg?style=flat&logo=c%2B%2B)
 ![](https://img.shields.io/badge/dependencies-STL_only-blue)
 
-This container was designed to hold dynamically-allocated N-dimensional datasets in memory and provide convenient access to it, while minimizing performance/memory overhead as well as using a single allocation for all the data.
+This container was designed to hold dynamically-allocated N-dimens ional datasets in memory and provide convenient access to it, while minimizing performance/memory overhead as well as using a single allocation for all the data.
 
 ### Usage Example
 ```cpp
