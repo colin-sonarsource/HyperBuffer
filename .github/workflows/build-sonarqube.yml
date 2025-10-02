@@ -39,6 +39,8 @@ jobs:
         CTEST_OUTPUT_ON_FAILURE: 1
       working-directory: deploy/build
       run: |
+        pwd
+        ls
         mkdir -p bw-output
         build-wrapper-linux-x86-64 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }}  make -j 4
         ./HyperBufferTest
